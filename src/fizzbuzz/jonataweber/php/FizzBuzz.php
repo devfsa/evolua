@@ -19,6 +19,17 @@ class FizzBuzz
     }
 
     /**
+     * Translate an array of numbers to FizzBuzz.
+     *
+     * @param array<int> $numbers
+     * @return array<string>
+     */
+    public function translateFromList(array $numbers): array
+    {
+        return array_map([$this, 'translate'], $numbers);
+    }
+
+    /**
      * Check if number is Fizz.
      *
      * @param integer $n
