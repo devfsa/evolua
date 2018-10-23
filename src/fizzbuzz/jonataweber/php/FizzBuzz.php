@@ -11,13 +11,9 @@ class FizzBuzz
      */
     public function translate(int $n): string
     {
-        if ($this->isFizzBuzz($n)) {
-            return 'fizzbuzz';
-        } else if ($this->isFizz($n)){
-            return 'fizz';
-        } else if ($this->isBuzz($n)) {
-            return 'buzz';
-        }
+        if ($this->isFizzBuzz($n)) return 'fizzbuzz';
+        if ($this->isFizz($n)) return 'fizz';
+        if ($this->isBuzz($n)) return 'buzz';    
 
         return (string) $n;
     }
