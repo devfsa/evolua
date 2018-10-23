@@ -35,3 +35,8 @@ Você deverá exibir uma lista de 1 a 100, um em cada linha, com as seguintes ex
 * Números divisíveis por 5 devem aparecer como 'Buzz' ao invés do número;
 * Números divisíveis por 3 e 5 devem aparecer como 'FizzBuzz' ao invés do número'.
 
+Exemplo:
+
+```
+1, 2, fizz, 4, buzz, fizz, 7, 8, fizz, buzz, 11, fizz, 13, 14, fizzbuzz, 16, ..., buzz
+```
