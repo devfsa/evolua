@@ -10,13 +10,19 @@ Acreditamos que a prática do Code Review e até mesmo vendo código produzido p
 ## Como funciona
 Listaremos aqui alguns desafios e através do seu Pull Request daremos um feedback a respeito do que pode ser melhorado no seu código.
 
-Você precisará clonar esse repositório na sua máquina, criar uma pasta com o seu nome e dentro dela o código em qualquer linguagem para ser revisado. Ficará algo mais ou menos assim:
+Você precisa fazer um fork desse repositório, criar uma pasta com o seu nome e dentro dela o código *em qualquer linguagem* para ser revisado. A estrutura de pastas ficará algo mais ou menos assim:
 
 ```
 evolua
+├── README.md
 └── src
-    └── jonataweber
-        └── nome-do-desafio.js
+    └── fizzbuzz
+        └── jonataweber
+            ├── index.js
+            ├── lib
+            │   └── fizzbuzz.js
+            └── tests
+                └── fizzbuzz.test.js
 ```
 ## Dúvidas
 Temos [um grupo no telegram](https://t.me/devfsa) que pode ser utilizado para tirar dúvidas a respeito de qualquer coisa, mas se preferir, abra um issue nesse repositório que também daremos todo o suporte necessário.
