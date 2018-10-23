@@ -1,4 +1,4 @@
-# Evolua
+# Evolua [BETA]
 Mande um PR e evolua com os feedbacks da comunidade.
 
 ## Porquê
