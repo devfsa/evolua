@@ -34,3 +34,9 @@ Temos [um grupo no telegram](https://t.me/devfsa) que pode ser utilizado para ti
 ## Desafios
 
 Acesse [aqui](https://github.com/devfsa/evolua/issues?q=is%3Aopen+is%3Aissue+label%3Aquestion) nossa lista de issues e filtre pela label "question".
+
+## Quer ajudar a revisar?
+Dê uma olhada na [lista de Pull Requests](https://github.com/devfsa/evolua/blob/519aec547cbff9e397e2d2edeaf4cdc01985ffab/src/lucas_jkdrangel/index.js) e deixe um comentário bacana!
+Vale a pena colocar link de artigos, sugestões de livros, exemplo de código e/ou tudo que ajude a pessoa a entender o seu ponto de vista e evolua!
+
+Ninguém é obrigado a seguir as sugestões. Como o próprio nome já diz "SUGESTÕES" :-)
