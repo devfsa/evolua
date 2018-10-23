@@ -1,7 +1,7 @@
 # Evolua [BETA]
 Mande um PR e evolua com os feedbacks da comunidade.
 
-## Porquê
+## Por quê?
 Acreditamos que a prática do Code Review e até mesmo vendo código produzido por colegas que já praticam boas práticas de programação é uma das melhores formas de aprender e melhorar a codificação. Temos pessoas experientes na comunidade do DevFSA que podem ajuda-los nesse processo.
 
 * [Qual o valor real do code review para a equipe de desenvolvimento?](https://medium.com/trainingcenter/qual-o-real-valor-do-code-review-para-uma-equipe-de-desenvolvimento-f43f894c0a04)
