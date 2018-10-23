@@ -26,4 +26,12 @@ Temos [um grupo no telegram](https://t.me/devfsa) que pode ser utilizado para ti
 * [Git e Github - Do clone ao pull request](https://blog.da2k.com.br/2015/02/04/git-e-github-do-clone-ao-pull-request/)
 
 ## Desafios
-WIP
+
+### FizzBuzz
+
+Você deverá exibir uma lista de 1 a 100, um em cada linha, com as seguintes exceções:
+
+* Números divisíveis por 3 deve aparecer como 'Fizz' ao invés do número;
+* Números divisíveis por 5 devem aparecer como 'Buzz' ao invés do número;
+* Números divisíveis por 3 e 5 devem aparecer como 'FizzBuzz' ao invés do número'.
+
