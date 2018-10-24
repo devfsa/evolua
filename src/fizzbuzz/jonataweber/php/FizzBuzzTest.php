@@ -4,7 +4,7 @@ require_once 'FizzBuzz.php';
 
 $fb = new FizzBuzz;
 
-assert($fb->translate(3) === 'fizz');
-assert($fb->translate(5) === 'buzz');
-assert($fb->translate(15) === 'fizzbuzz');
-assert($fb->translate(16) === '16');
+assert($fb->translateNumber(3) === 'fizz');
+assert($fb->translateNumber(5) === 'buzz');
+assert($fb->translateNumber(15) === 'fizzbuzz');
+assert($fb->translateNumber(16) === '16');
