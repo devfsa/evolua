@@ -3,6 +3,9 @@
 class FizzBuzz
 {
 
+    const FIZZ_FACTOR = 3;
+    const BUZZ_FACTOR = 5;
+
     /**
      * Translate number to FizzBuzz.
      *
@@ -37,7 +40,7 @@ class FizzBuzz
      */
     protected function isFizz(int $number): bool
     {
-        return $number % 3 === 0;
+        return $number % self::FIZZ_FACTOR === 0;
     }
 
     /**
@@ -48,7 +51,7 @@ class FizzBuzz
      */
     protected function isBuzz(int $number): bool
     {
-        return $number % 5 === 0;
+        return $number % self::BUZZ_FACTOR === 0;
     }
 
     /**
