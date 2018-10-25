@@ -24,8 +24,8 @@ function first(string $haystack, int $offset = 0, Array $carry = [])
     $isRecurrence = $carry[$char] > 1;
     $notFoundRecurrence = $isLastCharacter && false === $isRecurrence;
 
+    if ($isRecurrence) return $char;
     if ($notFoundRecurrence) return null;
-    if ($isLastCharacter || $isRecurrence) return $char;
 
     return first($haystack, $offset + 1, $carry);
 }
